@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration Template</title>
+    <link href="favicon.png" rel="icon" type="image/x-icon">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      body{
+            background: black;
+      }
+     .form {
+    margin: 156px auto;
+    padding: 25px 20px;
+    background: #333;
+    box-shadow: 2px 7px 8px #a5a5a5;
+    border-radius: 5px;
+    color: #fff;
+}
+      .form h2{
+        margin-top: 0px;
+        margin-bottom: 15px;
+        padding-bottom: 5px;
+        border-radius: 10px;
+      }
+      .footer{
+        padding: 10px;
+      }
+	    img.img-rounded {
+    width: 98px;
+    margin-left: 107px;
+    margin-top: -73px;
+    border-radius: 58px;
+}
+label.checkbox-inline.pull-left {
+    margin-top: 21px;
+}
+button.btn.btn-primary.pull-right {
+    margin-top: 18px;
+}
+    </style>
+  </head>
+  <body>
+  <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12 col-md-offset-4 col-sm-offset-3">
+          <div class="bslf form">
+            <form action="index.html" method="post">
+			<img src="lord_hanuman_angry_image.jpg" alt="Avatar" class="img-rounded">
+              <h2 class="text-center">Registration</h2>       
+              <div class="form-group">
+                 <input type="text" class="form-control" placeholder="User Name" required="required">
+              </div>
+			  <div class="form-group">
+                 <input type="text" class="form-control" placeholder="First Name" required="required">
+              </div>
+			  <div class="form-group">
+                 <input type="text" class="form-control" placeholder="Last Name" required="required">
+              </div>
+			  <div class="form-group">
+                 <input type="text" class="form-control" placeholder="Email" required="required">
+              </div>
+		      <div class="form-group">
+                <input type="password" class="form-control" placeholder="*********" required="required">
+              </div>
+			  <select class="form-control">
+					   <option>Select</option>
+						  <option value="volvo">Surat</option>
+						  <option value="saab">Baroda</option>
+						  <option value="mercedes">Rajkot</option>
+					   <option value="audi">Bharuch</option>
+			  </select>
+              <div class="form-group clearfix">
+                <label class="checkbox-inline pull-left"><input type="checkbox"> Remember me</label>
+                <button type="submit" class="btn btn-primary pull-right" onclick="alert();">Submit</button>
+              </div>
+             </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar-default navbar-fixed-bottom">
+      <div class="text-center footer">Copyright © 2018 Code Grope. All Right Reserved.</div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+	<script>
+	function alert()
+	{
+	debugger
+	  swal("Good job!", "You clicked the button!", "success")
+}
+	</script>
+  </body>
+</html>
